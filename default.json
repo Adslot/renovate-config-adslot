@@ -4,8 +4,7 @@
   "extends": [
     "config:base",
     "npm:unpublishSafe",
-    ":onlyNpm",
-    ":prConcurrentLimit10"
+    ":onlyNpm"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
