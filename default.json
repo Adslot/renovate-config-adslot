@@ -4,10 +4,13 @@
   "extends": [
     "config:base",
     "npm:unpublishSafe",
-    "schedule:monthly",
     ":onlyNpm",
     ":prConcurrentLimit10"
   ],
   "labels": ["dependencies"],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "schedule": [
+    "at 5:00 am on friday on the 1st through 7th day of the month every 1 month"
+  ],
+  "timezone": "Australia/Melbourne"
 }
