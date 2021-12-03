@@ -15,6 +15,18 @@
     {
       "matchPackagePatterns": ["redux"],
       "groupName": "redux"
+    },
+    {
+      "matchPackagePatterns": ["webpack"],
+      "groupName": "webpack"
+    },
+    {
+      "matchPackagePatterns": ["rollup"],
+      "groupName": "rollup"
+    },
+    {
+      "matchPackagePatterns": ["@types", "typescript"],
+      "groupName": "typescript"
     }
   ],
   "prHourlyLimit": 10,
