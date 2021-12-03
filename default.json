@@ -1,16 +1,20 @@
 {
   "additionalReviewers": ["bchew", "xiaofan2406"],
   "branchPrefix": "renovate-",
-  "extends": [
-    "config:base",
-    "npm:unpublishSafe",
-    ":onlyNpm"
-  ],
+  "extends": ["config:base", "npm:unpublishSafe", ":onlyNpm"],
   "labels": ["dependencies"],
   "packageRules": [
     {
       "matchPackageNames": ["node"],
       "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": ["redux"],
+      "groupName": "redux"
     }
   ],
   "prHourlyLimit": 10,
