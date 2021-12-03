@@ -4,10 +4,10 @@
   "extends": [
     "config:base",
     "npm:unpublishSafe",
-    ":onlyNpm",
-    ":prHourlyLimit10"
+    ":onlyNpm"
   ],
   "labels": ["dependencies"],
+  "prHourlyLimit": 10,
   "rangeStrategy": "bump",
   "schedule": [
     "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month"
