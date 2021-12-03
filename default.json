@@ -7,6 +7,12 @@
     ":onlyNpm"
   ],
   "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "enabled": false
+    }
+  ],
   "prHourlyLimit": 10,
   "rangeStrategy": "bump",
   "schedule": [
