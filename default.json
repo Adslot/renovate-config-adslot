@@ -36,7 +36,8 @@
   "prHourlyLimit": 10,
   "rangeStrategy": "bump",
   "schedule": [
-    "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month"
+    "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month",
+    "before 11:59 pm on Friday on the 1st through 7th day of the month every 1 month"
   ],
   "timezone": "Australia/Melbourne"
 }
