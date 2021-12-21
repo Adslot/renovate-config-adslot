@@ -25,16 +25,17 @@
       "groupName": "rollup"
     },
     {
-      "matchPackagePatterns": ["@types", "typescript"],
-      "groupName": "typescript"
-    },
-    {
       "matchPackagePatterns": ["@testing-library"],
       "groupName": "@testing-library"
+    },
+    {
+      "matchPackagePatterns": ["@types", "typescript"],
+      "groupName": "typescript"
     }
   ],
   "prHourlyLimit": 10,
   "rangeStrategy": "bump",
+  "prCreation": "not-pending",
   "schedule": [
     "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month"
   ],
