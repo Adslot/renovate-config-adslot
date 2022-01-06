@@ -1,7 +1,7 @@
 {
   "additionalReviewers": ["bchew", "xiaofan2406"],
   "branchPrefix": "renovate-",
-  "extends": ["config:base", "npm:unpublishSafe", ":onlyNpm"],
+  "extends": ["config:base", ":onlyNpm"],
   "labels": ["dependencies"],
   "packageRules": [
     {
@@ -33,9 +33,8 @@
       "groupName": "typescript"
     }
   ],
-  "prHourlyLimit": 10,
   "rangeStrategy": "bump",
-  "prCreation": "not-pending",
+  "rollbackPrs": true,
   "schedule": [
     "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month"
   ],
