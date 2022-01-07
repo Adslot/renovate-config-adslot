@@ -10,27 +10,33 @@
     },
     {
       "matchPackagePatterns": ["eslint"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["redux"],
-      "groupName": "redux"
+      "groupName": "redux",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["webpack"],
-      "groupName": "webpack"
+      "groupName": "webpack",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["rollup"],
-      "groupName": "rollup"
+      "groupName": "rollup",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["@testing-library"],
-      "groupName": "@testing-library"
+      "groupName": "@testing-library",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["@types", "typescript"],
-      "groupName": "typescript"
+      "groupName": "typescript",
+      "recreateClosed": false
     }
   ],
   "prConcurrentLimit": 0,
