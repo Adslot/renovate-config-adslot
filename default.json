@@ -46,5 +46,8 @@
   "schedule": [
     "after 4:00 am on Friday on the 1st through 7th day of the month every 1 month"
   ],
-  "timezone": "Australia/Melbourne"
+  "timezone": "Australia/Melbourne",
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
