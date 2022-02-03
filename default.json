@@ -5,8 +5,14 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchPackageNames": ["node"],
-      "enabled": false
+      "matchPackagePatterns": ["@testing-library"],
+      "groupName": "@testing-library",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["@types", "typescript"],
+      "groupName": "typescript",
+      "recreateClosed": false
     },
     {
       "matchPackagePatterns": ["eslint"],
@@ -14,13 +20,16 @@
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["redux"],
-      "groupName": "redux",
-      "recreateClosed": false
+      "matchPackageNames": ["node"],
+      "enabled": false
     },
     {
-      "matchPackagePatterns": ["webpack"],
-      "groupName": "webpack",
+      "matchPackageNames": ["pino"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["redux"],
+      "groupName": "redux",
       "recreateClosed": false
     },
     {
@@ -29,13 +38,8 @@
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["@testing-library"],
-      "groupName": "@testing-library",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": ["@types", "typescript"],
-      "groupName": "typescript",
+      "matchPackagePatterns": ["webpack"],
+      "groupName": "webpack",
       "recreateClosed": false
     }
   ],
