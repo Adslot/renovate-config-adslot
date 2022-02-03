@@ -37,6 +37,11 @@
       "matchPackagePatterns": ["@types", "typescript"],
       "groupName": "typescript",
       "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["pino"],
+      "groupName": "pino",
+      "recreateClosed": false
     }
   ],
   "prConcurrentLimit": 0,
