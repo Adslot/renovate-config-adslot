@@ -1,6 +1,9 @@
 {
   "additionalReviewers": ["bchew", "xiaofan2406"],
   "branchPrefix": "renovate-",
+  "constraints": {
+    "npm": "8.5.5"
+  },
   "extends": ["config:base", ":onlyNpm"],
   "labels": ["dependencies"],
   "packageRules": [
