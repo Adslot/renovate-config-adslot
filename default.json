@@ -33,7 +33,7 @@
     },
     {
       "matchPackagePatterns": ["@testing-library"],
-      "groupName": "@testing-library",
+      "groupName": "testing-library",
       "recreateClosed": false
     },
     {
