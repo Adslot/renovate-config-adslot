@@ -2,7 +2,7 @@
   "additionalReviewers": ["bchew", "xiaofan2406"],
   "branchPrefix": "renovate-",
   "constraints": {
-    "npm": "8.5.5"
+    "npm": "8.11.0"
   },
   "extends": ["config:base", ":onlyNpm"],
   "labels": ["dependencies"],
