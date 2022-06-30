@@ -32,6 +32,11 @@
       "recreateClosed": false
     },
     {
+      "matchPackagePatterns": ["postcss"],
+      "groupName": "postcss",
+      "recreateClosed": false
+    },
+    {
       "matchPackagePatterns": ["@testing-library"],
       "groupName": "testing-library",
       "recreateClosed": false
