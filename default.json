@@ -37,18 +37,53 @@
       "recreateClosed": false
     },
     {
+      "matchPackagePatterns": ["classnames"],
+      "groupName": "classnames",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["lodash"],
+      "groupName": "lodash",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["jest"],
+      "groupName": "jest",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["draft-js"],
+      "groupName": "draft-js",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["react-datepicker"],
+      "groupName": "react-datepicker",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["react-select"],
+      "groupName": "react-select",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": ["react-slick"],
+      "groupName": "react-slick",
+      "recreateClosed": false
+    },
+    {
       "matchPackagePatterns": ["@testing-library"],
       "groupName": "testing-library",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["@types", "typescript"],
-      "groupName": "typescript",
+      "matchPackagePatterns": ["pino"],
+      "groupName": "pino",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["pino"],
-      "groupName": "pino",
+      "matchPackagePatterns": ["@types", "typescript"],
+      "groupName": "typescript",
       "recreateClosed": false
     }
   ],
