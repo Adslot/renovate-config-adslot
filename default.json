@@ -8,7 +8,7 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchPackageNames": ["node"],
+      "matchPackageNames": ["node", "npm"],
       "enabled": false
     },
     {
