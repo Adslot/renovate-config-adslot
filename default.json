@@ -1,7 +1,6 @@
 {
   "additionalReviewers": ["bchew", "xiaofan2406"],
   "branchPrefix": "renovate-",
-  "enabled": false,
   "extends": ["config:base", ":disableDigestUpdates", ":onlyNpm"],
   "labels": ["dependencies"],
   "packageRules": [
