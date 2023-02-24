@@ -1,88 +1,131 @@
 {
-  "additionalReviewers": ["bchew", "xiaofan2406"],
+  "additionalReviewers": [
+    "bchew",
+    "xiaofan2406"
+  ],
   "branchPrefix": "renovate-",
   "constraints": {
-    "npm": "9.3.1"
+    "npm": "9.5.0"
   },
-  "extends": ["config:base", ":disableDigestUpdates", ":onlyNpm"],
-  "labels": ["dependencies"],
+  "extends": [
+    "config:base",
+    ":disableDigestUpdates",
+    ":onlyNpm"
+  ],
+  "labels": [
+    "dependencies"
+  ],
   "packageRules": [
     {
-      "matchPackageNames": ["node", "npm"],
+      "matchPackageNames": [
+        "node",
+        "npm"
+      ],
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["eslint"],
+      "matchPackagePatterns": [
+        "eslint"
+      ],
       "groupName": "eslint",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["redux"],
+      "matchPackagePatterns": [
+        "redux"
+      ],
       "groupName": "redux",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["webpack"],
+      "matchPackagePatterns": [
+        "webpack"
+      ],
       "groupName": "webpack",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["rollup"],
+      "matchPackagePatterns": [
+        "rollup"
+      ],
       "groupName": "rollup",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["postcss"],
+      "matchPackagePatterns": [
+        "postcss"
+      ],
       "groupName": "postcss",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["classnames"],
+      "matchPackagePatterns": [
+        "classnames"
+      ],
       "groupName": "classnames",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["lodash"],
+      "matchPackagePatterns": [
+        "lodash"
+      ],
       "groupName": "lodash",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["jest"],
+      "matchPackagePatterns": [
+        "jest"
+      ],
       "groupName": "jest",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["draft-js"],
+      "matchPackagePatterns": [
+        "draft-js"
+      ],
       "groupName": "draft-js",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["react-datepicker"],
+      "matchPackagePatterns": [
+        "react-datepicker"
+      ],
       "groupName": "react-datepicker",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["react-select"],
+      "matchPackagePatterns": [
+        "react-select"
+      ],
       "groupName": "react-select",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["react-slick"],
+      "matchPackagePatterns": [
+        "react-slick"
+      ],
       "groupName": "react-slick",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["@testing-library"],
+      "matchPackagePatterns": [
+        "@testing-library"
+      ],
       "groupName": "testing-library",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["pino"],
+      "matchPackagePatterns": [
+        "pino"
+      ],
       "groupName": "pino",
       "recreateClosed": false
     },
     {
-      "matchPackagePatterns": ["@types", "typescript"],
+      "matchPackagePatterns": [
+        "@types",
+        "typescript"
+      ],
       "groupName": "typescript",
       "recreateClosed": false
     }
