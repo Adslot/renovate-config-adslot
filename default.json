@@ -32,6 +32,13 @@
     },
     {
       "matchPackagePatterns": [
+        "stylelint"
+      ],
+      "groupName": "stylelint",
+      "recreateClosed": false
+    },
+    {
+      "matchPackagePatterns": [
         "redux"
       ],
       "groupName": "redux",
