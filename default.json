@@ -10,7 +10,8 @@
   "extends": [
     "config:recommended",
     ":disableDigestUpdates",
-    ":onlyNpm",
+    ":docker",
+    ":npm",
     ":semanticCommits"
   ],
   "labels": [
