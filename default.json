@@ -9,6 +9,7 @@
   },
   "extends": [
     "config:recommended",
+    "docker:disable",
     ":disableDigestUpdates",
     ":npm",
     ":semanticCommits"
