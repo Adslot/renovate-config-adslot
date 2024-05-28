@@ -5,7 +5,7 @@
   ],
   "branchPrefix": "renovate-",
   "constraints": {
-    "npm": "10.5.2"
+    "npm": "10.7.0"
   },
   "extends": [
     "config:recommended",
