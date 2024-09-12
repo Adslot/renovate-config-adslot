@@ -29,6 +29,7 @@
     {
       "matchPackageNames": [
         "@commitlint/**",
+        "@cucumber/cucumber",
         "chai",
         "husky",
         "lint-staged",
