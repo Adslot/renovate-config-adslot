@@ -36,8 +36,8 @@
         "nodemon",
         "nyc",
         "prettier",
-        "sinon",
-        "stylelint",
+        "sinon*",
+        "stylelint*",
         "supertest"
       ],
       "groupName": "devDeps"
@@ -55,9 +55,16 @@
     },
     {
       "matchPackageNames": [
-        "axios"
+        "axios*"
       ],
       "groupName": "axios"
+    },
+    {
+      "matchPackageNames": [
+        "dd-trace",
+        "@datadog/**"
+      ],
+      "groupName": "datadog"
     },
     {
       "matchPackageNames": [
@@ -68,43 +75,57 @@
     },
     {
       "matchPackageNames": [
-        "eslint"
+        "eslint*"
       ],
       "groupName": "eslint"
     },
     {
       "matchPackageNames": [
-        "jest"
+        "body-parser",
+        "express*",
+        "serve-static"
+      ],
+      "groupName": "express"
+    },
+    {
+      "matchPackageNames": [
+        "jest*"
       ],
       "groupName": "jest"
     },
     {
       "matchPackageNames": [
-        "moment"
+        "moment*"
       ],
       "groupName": "moment"
     },
     {
       "matchPackageNames": [
-        "pino"
+        "pg*"
+      ],
+      "groupName": "pg"
+    },
+    {
+      "matchPackageNames": [
+        "pino*"
       ],
       "groupName": "pino"
     },
     {
       "matchPackageNames": [
-        "postcss"
+        "postcss*"
       ],
       "groupName": "postcss"
     },
     {
       "matchPackageNames": [
-        "redux"
+        "redux*"
       ],
       "groupName": "redux"
     },
     {
       "matchPackageNames": [
-        "rollup"
+        "rollup*"
       ],
       "groupName": "rollup"
     },
@@ -123,7 +144,7 @@
     },
     {
       "matchPackageNames": [
-        "webpack"
+        "webpack*"
       ],
       "groupName": "webpack"
     }
