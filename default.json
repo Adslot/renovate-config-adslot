@@ -27,117 +27,105 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": [
+      "matchPackageNames": [
+        "@commitlint/**",
+        "chai",
+        "husky",
+        "lint-staged",
+        "mocha",
+        "nodemon",
+        "nyc",
+        "prettier",
+        "sinon",
+        "stylelint",
+        "supertest"
+      ],
+      "groupName": "devDeps"
+    },
+    {
+      "matchPackageNames": [
+        "@axe-core/**",
+        "@wdio/**",
+        "allure-commandline",
+        "axe-html-reporter",
+        "otpauth",
+        "webdriverio"
+      ],
+      "groupName": "e2e"
+    },
+    {
+      "matchPackageNames": [
+        "axios"
+      ],
+      "groupName": "axios"
+    },
+    {
+      "matchPackageNames": [
+        "draft-js",
+        "@draft-js/**"
+      ],
+      "groupName": "draft-js"
+    },
+    {
+      "matchPackageNames": [
         "eslint"
       ],
-      "groupName": "eslint",
-      "recreateClosed": false
+      "groupName": "eslint"
     },
     {
-      "matchPackagePatterns": [
-        "stylelint"
-      ],
-      "groupName": "stylelint",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "redux"
-      ],
-      "groupName": "redux",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "webpack"
-      ],
-      "groupName": "webpack",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "rollup"
-      ],
-      "groupName": "rollup",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "postcss"
-      ],
-      "groupName": "postcss",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "classnames"
-      ],
-      "groupName": "classnames",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "lodash"
-      ],
-      "groupName": "lodash",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "jest"
       ],
-      "groupName": "jest",
-      "recreateClosed": false
+      "groupName": "jest"
     },
     {
-      "matchPackagePatterns": [
-        "draft-js"
+      "matchPackageNames": [
+        "moment"
       ],
-      "groupName": "draft-js",
-      "recreateClosed": false
+      "groupName": "moment"
     },
     {
-      "matchPackagePatterns": [
-        "react-datepicker"
-      ],
-      "groupName": "react-datepicker",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "react-select"
-      ],
-      "groupName": "react-select",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "react-slick"
-      ],
-      "groupName": "react-slick",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
-        "@testing-library"
-      ],
-      "groupName": "testing-library",
-      "recreateClosed": false
-    },
-    {
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "pino"
       ],
-      "groupName": "pino",
-      "recreateClosed": false
+      "groupName": "pino"
     },
     {
-      "matchPackagePatterns": [
-        "@types",
+      "matchPackageNames": [
+        "postcss"
+      ],
+      "groupName": "postcss"
+    },
+    {
+      "matchPackageNames": [
+        "redux"
+      ],
+      "groupName": "redux"
+    },
+    {
+      "matchPackageNames": [
+        "rollup"
+      ],
+      "groupName": "rollup"
+    },
+    {
+      "matchPackageNames": [
+        "@testing-library/**"
+      ],
+      "groupName": "testing-library"
+    },
+    {
+      "matchPackageNames": [
+        "@types/**",
         "typescript"
       ],
-      "groupName": "typescript",
-      "recreateClosed": false
+      "groupName": "typescript"
+    },
+    {
+      "matchPackageNames": [
+        "webpack"
+      ],
+      "groupName": "webpack"
     }
   ],
   "prConcurrentLimit": 0,
