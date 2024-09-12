@@ -30,9 +30,12 @@
       "matchPackageNames": [
         "@commitlint/**",
         "@cucumber/cucumber",
-        "chai",
+        "c8",
+        "chai*",
+        "deep-equal-in-any-order",
         "husky",
         "lint-staged",
+        "loglevel",
         "mocha",
         "nodemon",
         "nyc",
@@ -142,6 +145,12 @@
         "rollup*"
       ],
       "groupName": "rollup"
+    },
+    {
+      "matchPackageNames": [
+        "serverless*"
+      ],
+      "groupName": "serverless"
     },
     {
       "matchPackageNames": [
