@@ -31,7 +31,6 @@
         "@commitlint/**",
         "@cucumber/cucumber",
         "c8",
-        "chai*",
         "deep-equal-in-any-order",
         "husky",
         "lint-staged",
