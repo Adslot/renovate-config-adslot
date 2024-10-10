@@ -197,7 +197,7 @@
   "rangeStrategy": "bump",
   "rollbackPrs": true,
   "schedule": [
-    "after 4:00 am on Friday on the 8th through 14th day of the month every 3 month"
+    "after 4:00 am on Friday on the 1st through 7th day of the month every 3 month"
   ],
   "timezone": "Australia/Melbourne",
   "vulnerabilityAlerts": {
