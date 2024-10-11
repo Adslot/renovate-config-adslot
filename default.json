@@ -39,7 +39,7 @@
         "nodemon",
         "nyc",
         "prettier",
-        "sinon*",
+        "sinon",
         "stylelint*",
         "supertest"
       ],
