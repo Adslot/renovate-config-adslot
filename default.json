@@ -28,6 +28,7 @@
     },
     {
       "matchPackageNames": [
+        "axios-mock-adapter",
         "@commitlint/**",
         "@cucumber/cucumber",
         "c8",
@@ -52,6 +53,7 @@
         "allure-commandline",
         "axe-html-reporter",
         "otpauth",
+        "tough-cookie",
         "webdriverio"
       ],
       "groupName": "e2e"
