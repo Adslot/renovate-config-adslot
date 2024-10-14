@@ -182,7 +182,6 @@
         "css-minimizer-webpack-plugin",
         "exports-loader",
         "html-webpack-plugin",
-        "loader-utils",
         "mini-css-extract-plugin",
         "null-loader",
         "style-loader",
