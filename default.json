@@ -4,7 +4,6 @@
     "xiaofan2406"
   ],
   "branchPrefix": "renovate-",
-  "enabled": false,
   "constraints": {
     "npm": "10.9.0"
   },
