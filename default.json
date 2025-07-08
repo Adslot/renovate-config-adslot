@@ -192,8 +192,8 @@
       "groupName": "webpack"
     }
   ],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 5,
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 2,
   "rangeStrategy": "bump",
   "rollbackPrs": true,
   "schedule": [
