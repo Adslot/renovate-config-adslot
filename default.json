@@ -17,7 +17,6 @@
   "labels": [
     "dependencies"
   ],
-  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchPackageNames": [
