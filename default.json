@@ -1,7 +1,6 @@
 {
   "additionalReviewers": [
-    "bchew",
-    "xiaofan2406"
+    "bchew"
   ],
   "branchPrefix": "renovate-",
   "constraints": {
